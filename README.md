@@ -1,4 +1,6 @@
-# AI Skincare Advisor · 护肤选购与使用顾问原型
+# Unilever · Paula’s Choice | AI Skincare Advisor Prototype
+
+联合利华—宝拉珍选｜AI 护肤顾问原型
 
 [English](#english) · [中文](#中文介绍)
 
