@@ -1,0 +1,83 @@
+{
+  "说明": "只抽出《宝拉珍选 HERO SKU一页汇总.pdf》里单独嵌入的包装图，按产品页和瓶身文字对应到产品 ID。没有把整页截图放进页面，也没有生成包装。对不上具体版本的不配图。products.json 未改。",
+  "目录": "app/public/product-images",
+  "产品": [
+    {
+      "产品ID": "local-01",
+      "采用": true,
+      "文件": "local-01.png",
+      "PDF页码": 2,
+      "依据": "该页唯一包装图。瓶身写明 2% BHA Liquid Exfoliant、118 ml，与水杨酸精华露 118ml 一致。"
+    },
+    {
+      "产品ID": "local-02",
+      "采用": true,
+      "文件": "local-02.png",
+      "PDF页码": 3,
+      "依据": "该页唯一包装图。瓶身写明 4% BHA、30 ml，与 4% 水杨酸精华 30ml 一致，不和 2% 版本混用。"
+    },
+    {
+      "产品ID": "local-03",
+      "采用": true,
+      "文件": "local-03.png",
+      "PDF页码": 4,
+      "依据": "该页唯一包装图。瓶身写明 Niacinamide 20%、20 ml，紫色滴管，与烟酰胺精华 20ml 一致。"
+    },
+    {
+      "产品ID": "local-04",
+      "采用": true,
+      "文件": "local-04.png",
+      "PDF页码": 5,
+      "依据": "该页唯一包装图。容量 30 ml，紫色瓶身，与臻时焕活精华及页内「紫弹头」同页。瓶身英文为 CellularYouth Longevity Serum。"
+    },
+    {
+      "产品ID": "local-05",
+      "采用": true,
+      "文件": "local-05.png",
+      "PDF页码": 6,
+      "依据": "该页唯一包装图。瓶身写明 PRO Retinaldehyde Treatment、30 ml，与高效 A 醛 PRO 精华 30ml 一致。"
+    },
+    {
+      "产品ID": "local-06",
+      "采用": true,
+      "文件": "local-06.png",
+      "PDF页码": 7,
+      "依据": "清透修色隔离防晒这一页的唯一包装图。容量 60 ml，与规格一致。瓶身英文为 Super-Light Daily Wrinkle Defense SPF 30。"
+    },
+    {
+      "产品ID": "local-07",
+      "采用": true,
+      "文件": "local-07.png",
+      "PDF页码": 8,
+      "依据": "该页唯一包装图。瓶身写明 0.3% Retinol + 2% Bakuchiol、30 ml，与双 A 视黄醇精华乳的 0.3% A 醇、植物 A 醇和 30ml 一致。"
+    },
+    {
+      "产品ID": "local-08",
+      "采用": true,
+      "文件": "local-08.png",
+      "PDF页码": 9,
+      "依据": "该页唯一包装图。瓶身写明 25% Vitamin C + Glutathione、30 ml，与 C25 美白淡斑精华 30ml 及页内谷胱甘肽一致。"
+    },
+    {
+      "产品ID": "local-09",
+      "采用": true,
+      "文件": "local-09.png",
+      "PDF页码": 10,
+      "依据": "轻盈版这一页的包装图。瓶身写明 Gel-Cream、50 ml。同系列滋润版在下一页，是另一只瓶子，没有混用。"
+    },
+    {
+      "产品ID": "local-10",
+      "采用": true,
+      "文件": "local-10.png",
+      "PDF页码": 11,
+      "依据": "滋润版这一页写明 Intensive Moisturizer、50 ml 的瓶身。同页另一张是膏体涂抹，不是包装，未使用。"
+    },
+    {
+      "产品ID": "local-11",
+      "采用": true,
+      "文件": "local-11.png",
+      "PDF页码": 12,
+      "依据": "该页唯一包装图。瓶身写明 Peptide Firming Eye、15 ml，与高效胜肽胶原眼霜 15ml 一致。"
+    }
+  ]
+}

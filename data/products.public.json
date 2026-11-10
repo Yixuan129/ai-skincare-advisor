@@ -1,0 +1,245 @@
+{
+  "products": [
+    {
+      "id": "local-01",
+      "displayName": "宝拉珍选水杨酸精华露",
+      "fullName": null,
+      "pageNames": [
+        "宝拉珍选2%水杨酸",
+        "宝拉珍选水杨酸精华露"
+      ],
+      "spec": "118ml",
+      "rsp": 330,
+      "rspLabel": "资料RSP",
+      "page": 2,
+      "ingredientNames": [
+        "2%水杨酸",
+        "丁二醇",
+        "油茶精粹",
+        "0添加"
+      ],
+      "audience": "受痘痘、黑头、闭口、出油、毛孔等问题困扰人群；护肤品不易吸收、上妆搓泥人群",
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-02",
+      "displayName": "宝拉珍选4%水杨酸精华",
+      "fullName": "宝拉珍选4%水杨酸精华",
+      "pageNames": [
+        "宝拉珍选4%水杨酸精华",
+        "宝拉珍选4%水杨酸精华"
+      ],
+      "spec": "30ml",
+      "rsp": 460,
+      "rspLabel": "资料RSP",
+      "page": 3,
+      "ingredientNames": [
+        "4% 水杨酸（BHA）",
+        "甘油",
+        "腺苷",
+        "氢化卵磷脂",
+        "0添加"
+      ],
+      "audience": null,
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-03",
+      "displayName": "宝拉珍选烟酰胺高能修护精华液",
+      "fullName": null,
+      "pageNames": [
+        "宝拉珍选20%烟酰胺精华",
+        "VB紧致紫滴管",
+        "宝拉珍选烟酰胺高能修护精华液"
+      ],
+      "spec": "20ml",
+      "rsp": 480,
+      "rspLabel": "资料RSP",
+      "page": 4,
+      "ingredientNames": [
+        "20%烟酰胺",
+        "维C衍生物",
+        "乙酰壳糖胺",
+        "马齿苋提取物",
+        "泛醇（B5）"
+      ],
+      "audience": "烟酰胺耐受人群",
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-04",
+      "displayName": "宝拉珍选臻时焕活精华",
+      "fullName": "宝拉珍选臻时焕活精华",
+      "pageNames": [
+        "宝拉珍选臻时焕活精华",
+        "紫弹头",
+        "宝拉珍选臻时焕活精华"
+      ],
+      "spec": "30ml",
+      "rsp": 760,
+      "rspLabel": "资料RSP",
+      "page": 5,
+      "ingredientNames": [
+        "向日葵芽提取物（Helianthus Annuus (Sunflower) Sprout Extract）",
+        "枸杞果提取物（Goji Fruit Extract）",
+        "灵芝提取物（ Ganoderma Lucidum）",
+        "乙酰四肽 - 2（Acetyl Tetrapeptide-2）"
+      ],
+      "audience": "35岁+抗老需求或希望主动抗老人群",
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-05",
+      "displayName": "宝拉珍选高效A醛PRO精华",
+      "fullName": "宝拉珍选高效A醛PRO精华",
+      "pageNames": [
+        "宝拉珍选高效A醛PRO精华",
+        "宝拉珍选高效A醛PRO精华"
+      ],
+      "spec": "30ml",
+      "rsp": 650,
+      "rspLabel": "资料RSP",
+      "page": 6,
+      "ingredientNames": [
+        "0.1% 高效A醛",
+        "石榴皮提取物",
+        "地花菌发酵物",
+        "0添加"
+      ],
+      "audience": [
+        "25+肌肤出现多重老化痕迹，如肤质粗糙、肤色不均、痘印色沉等顽固肌肤问题困扰人群",
+        "对于A醇已经建立耐受，刷A陷入瓶颈期，需要进阶的人群",
+        "对于先锋成分感兴趣的专业成分党人群"
+      ],
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-06",
+      "displayName": "宝拉珍选清透修色隔离防晒",
+      "fullName": null,
+      "pageNames": [
+        "宝拉珍选猪肝防晒",
+        "宝拉珍选清透修色隔离防晒"
+      ],
+      "spec": "60ml",
+      "rsp": 355,
+      "rspLabel": "资料RSP",
+      "page": 7,
+      "ingredientNames": [
+        "13%氧化锌",
+        "维C衍生物+维生素E",
+        "红没药醇",
+        "白藜芦醇"
+      ],
+      "audience": "敏感肌、油痘肌、油敏肌、玫瑰脂皮",
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-07",
+      "displayName": "双A视黄醇抗皱紧致精华乳",
+      "fullName": "宝拉珍选双A视黄醇抗皱紧致精华乳",
+      "pageNames": [
+        "宝拉珍选双A视黄醇抗皱紧致精华乳",
+        "双A视黄醇抗皱紧致精华乳"
+      ],
+      "spec": "30ml",
+      "rsp": 650,
+      "rspLabel": "资料RSP",
+      "page": 8,
+      "ingredientNames": [
+        "0.3%A醇",
+        "2%补骨脂酚",
+        "4重肽",
+        "神经酰胺+透明质酸钠",
+        "多重植物提取物"
+      ],
+      "audience": "需要精准抗老淡纹紧致；希望以安全低浓度享受高效抗老效果；想要延长医美术后功效的人",
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-08",
+      "displayName": "宝拉珍选C25美白淡斑精华",
+      "fullName": "宝拉珍选C25美白淡斑精华",
+      "pageNames": [
+        "宝拉珍选C25美白淡斑精华",
+        "宝拉珍选C25美白淡斑精华"
+      ],
+      "spec": "30ml",
+      "rsp": 650,
+      "rspLabel": "资料RSP",
+      "page": 9,
+      "ingredientNames": [
+        "25%维C",
+        "谷胱甘肽"
+      ],
+      "audience": "肤色不均、暗黄等人群",
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-09",
+      "displayName": "宝拉珍选多肽面霜（轻盈版）",
+      "fullName": null,
+      "pageNames": [
+        "高效胜肽胶原紧致霜（轻盈版）",
+        "宝拉珍选多肽面霜（轻盈版）"
+      ],
+      "spec": "50ml",
+      "rsp": 490,
+      "rspLabel": "资料RSP",
+      "page": 10,
+      "ingredientNames": [
+        "三重复合胜肽",
+        "季铵化透明质酸",
+        "0添加"
+      ],
+      "audience": [
+        "适合所有追求深层补水并渴望拥有年轻饱满肌肤的人群",
+        "专为开始出现皮肤松弛、失去弹性或长期存在表情纹的人群设计",
+        "适合希望长期保持皮肤紧致、弹性和保湿度的人群"
+      ],
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-10",
+      "displayName": "宝拉珍选多肽面霜（滋润版）",
+      "fullName": null,
+      "pageNames": [
+        "宝拉珍选高效胜肽胶原紧致霜(滋润版)",
+        "宝拉珍选多肽面霜（滋润版）"
+      ],
+      "spec": "50ml",
+      "rsp": 490,
+      "rspLabel": "资料RSP",
+      "page": 11,
+      "ingredientNames": [
+        "三重胜肽"
+      ],
+      "audience": [
+        "干皮或混合型皮急需保湿并让肌肤更丰盈弹润人群",
+        "极度干燥环境下"
+      ],
+      "hasFullFormula": false
+    },
+    {
+      "id": "local-11",
+      "displayName": "宝拉珍选高效胜肽胶原眼霜",
+      "fullName": "宝拉珍选高效胜肽胶原眼霜",
+      "pageNames": [
+        "宝拉珍选高效胜肽胶原眼霜",
+        "宝拉珍选高效胜肽胶原眼霜"
+      ],
+      "spec": "15ml",
+      "rsp": 390,
+      "rspLabel": "资料RSP",
+      "page": 12,
+      "ingredientNames": [
+        "4重眼周针对性胜肽",
+        "海洋发酵提取物",
+        "苹果果提取物＋甘蔗角鲨烷",
+        "0添加"
+      ],
+      "audience": "关注上眼睑松弛、眼下暂时性浮肿、眼尾细纹、缺水或妆后卡纹的人群",
+      "hasFullFormula": false
+    }
+  ]
+}
