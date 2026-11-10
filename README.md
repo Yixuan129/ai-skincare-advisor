@@ -1,8 +1,86 @@
 # AI Skincare Advisor · 护肤选购与使用顾问原型
 
-[中文](#中文介绍) · [English](#english)
+[English](#english) · [中文](#中文介绍)
 
 ![原型首页 / Prototype homepage](docs/images/home.png)
+
+## English
+
+A research-informed skincare advisor prototype that turns product-selection questions, usage concerns and follow-up needs into an interactive experience. Using Paula’s Choice product materials as a case study, it connects research evidence with product design, explicit rules and implementation validation.
+
+> This portfolio snapshot comes from a team project and is not affiliated with Paula’s Choice. The current demo uses rules and local product data; it does not connect to a large language model service. “AI advisor” describes the project concept. The prototype does not provide skin diagnoses or medical advice.
+
+### Demo and documentation
+
+- [Live demo](https://baola-advisor.pages.dev/) — deployed separately and may differ from this repository snapshot.
+- [Research and product decisions](docs/research-and-decisions.md)
+- [Implementation and validation](docs/implementation.md)
+- [Project scope and contributions](docs/scope-and-contributions.md)
+- [Data and assets](docs/data-and-assets.md)
+- [Validation results](docs/validation.md)
+
+The supporting documents linked above are currently in Chinese.
+
+### The problem
+
+Skincare questions arise both before purchase and during use: identifying the exact product, understanding its instructions, recognising when information is insufficient and deciding what to do when discomfort occurs. The prototype separates product selection from questions about products already owned, with traceable rules constraining the results.
+
+### Implemented features
+
+- Product-selection and usage questionnaires covering current discomfort, skin type, goals, ingredient experience, existing products and budget.
+- A separate face-map entry point leading to related products, without uploading facial photographs.
+- Product browsing, details and comparison, with a return path that preserves selection state.
+- Saved plans, simulated membership and follow-up interactions, with relevant state stored locally in the browser.
+- Branches for insufficient information, discomfort and ambiguous candidates, avoiding forced product selections.
+
+See the face-map and product-comparison screenshots in the Chinese section below. The homepage screenshot at the top shows the prototype interface; the app interface is in Chinese.
+
+### Research basis and limitations
+
+Project materials include a questionnaire, interviews and analysis of social-platform discussions. This repository shares summary methods and their translation into design decisions, without publishing raw questionnaire responses, interviews or individual comments.
+
+A local structural check of the Douyin comment file found 1,300 records from 8 videos and 5 collection keywords. There were 1,120 distinct texts and 1,121 text units after merging identical text within the same video. These are not counts of unique users. Targeted sampling, concentrated sources and repeated text limit generalisation. Keyword search matches are not manually verified frequencies of user needs.
+
+### Run locally
+
+Requires npm and Node.js 22.6+ with support for `--experimental-strip-types`.
+
+```bash
+npm ci
+npm run dev
+```
+
+Run checks and create a production build:
+
+```bash
+npm test
+npm run lint
+npm run build
+npm run preview
+```
+
+Both `build` and `test` first generate `data/products.public.json` from `data/products.json`. Hosting must support an SPA fallback for BrowserRouter routes. The production output is `dist/`.
+
+### Stack and structure
+
+React, TypeScript, React Router and Vite, with the built-in Node.js test runner.
+
+| Directory | Contents |
+|---|---|
+| `src/` | Pages, questionnaire state, filtering rules, saved plans and membership simulation |
+| `data/` | Product materials, frontend catalogue and image provenance |
+| `scripts/` | Product catalogue export |
+| `tests/` | Rules, storage, display, membership and follow-up tests |
+| `public/` | Demo assets |
+| `docs/` | Research methods, implementation boundaries and project documentation |
+
+### Current limitations and asset rights
+
+This is an interactive prototype. It has not demonstrated improvements in conversion, revenue or skincare outcomes. Prices are reference prices from project materials, not current selling prices. Extracting product information and matching fields does not establish official factual verification. There are no real membership accounts, payments, backend messaging or live user experiments.
+
+Brand names, packaging and other third-party assets belong to their respective rights holders. This repository does not grant permission to reuse those assets, and no open-source licence has been applied to the project as a whole. See the [contribution statement](docs/scope-and-contributions.md) for the boundary between individual and team work.
+
+---
 
 ## 中文介绍
 
@@ -79,81 +157,3 @@ React、TypeScript、React Router、Vite；Node.js 内置测试工具。
 这是可交互原型，未证明实际转化率、收入提升或护肤效果。产品价格为资料参考价，并非当前售价；产品资料提取与字段匹配不等于完成官方事实核验。没有真实会员账户、支付、后台消息发送或线上用户实验。
 
 品牌名称、包装与其他第三方素材的权利归各自权利人。仓库未授予这些素材的再使用许可，也未为整个项目添加开源许可证。个人与团队贡献边界见[贡献说明](docs/scope-and-contributions.md)。
-
----
-
-## English
-
-A research-informed skincare advisor prototype that turns product-selection questions, usage concerns and follow-up needs into an interactive experience. Using Paula’s Choice product materials as a case study, it connects research evidence with product design, explicit rules and implementation validation.
-
-> This portfolio snapshot comes from a team project and is not affiliated with Paula’s Choice. The current demo uses rules and local product data; it does not connect to a large language model service. “AI advisor” describes the project concept. The prototype does not provide skin diagnoses or medical advice.
-
-### Demo and documentation
-
-- [Live demo](https://baola-advisor.pages.dev/) — deployed separately and may differ from this repository snapshot.
-- [Research and product decisions](docs/research-and-decisions.md)
-- [Implementation and validation](docs/implementation.md)
-- [Project scope and contributions](docs/scope-and-contributions.md)
-- [Data and assets](docs/data-and-assets.md)
-- [Validation results](docs/validation.md)
-
-The supporting documents linked above are currently in Chinese.
-
-### The problem
-
-Skincare questions arise both before purchase and during use: identifying the exact product, understanding its instructions, recognising when information is insufficient and deciding what to do when discomfort occurs. The prototype separates product selection from questions about products already owned, with traceable rules constraining the results.
-
-### Implemented features
-
-- Product-selection and usage questionnaires covering current discomfort, skin type, goals, ingredient experience, existing products and budget.
-- A separate face-map entry point leading to related products, without uploading facial photographs.
-- Product browsing, details and comparison, with a return path that preserves selection state.
-- Saved plans, simulated membership and follow-up interactions, with relevant state stored locally in the browser.
-- Branches for insufficient information, discomfort and ambiguous candidates, avoiding forced product selections.
-
-See the face-map and product-comparison screenshots in the Chinese section above. The homepage screenshot at the top shows the prototype interface; the app interface is in Chinese.
-
-### Research basis and limitations
-
-Project materials include a questionnaire, interviews and analysis of social-platform discussions. This repository shares summary methods and their translation into design decisions, without publishing raw questionnaire responses, interviews or individual comments.
-
-A local structural check of the Douyin comment file found 1,300 records from 8 videos and 5 collection keywords. There were 1,120 distinct texts and 1,121 text units after merging identical text within the same video. These are not counts of unique users. Targeted sampling, concentrated sources and repeated text limit generalisation. Keyword search matches are not manually verified frequencies of user needs.
-
-### Run locally
-
-Requires npm and Node.js 22.6+ with support for `--experimental-strip-types`.
-
-```bash
-npm ci
-npm run dev
-```
-
-Run checks and create a production build:
-
-```bash
-npm test
-npm run lint
-npm run build
-npm run preview
-```
-
-Both `build` and `test` first generate `data/products.public.json` from `data/products.json`. Hosting must support an SPA fallback for BrowserRouter routes. The production output is `dist/`.
-
-### Stack and structure
-
-React, TypeScript, React Router and Vite, with the built-in Node.js test runner.
-
-| Directory | Contents |
-|---|---|
-| `src/` | Pages, questionnaire state, filtering rules, saved plans and membership simulation |
-| `data/` | Product materials, frontend catalogue and image provenance |
-| `scripts/` | Product catalogue export |
-| `tests/` | Rules, storage, display, membership and follow-up tests |
-| `public/` | Demo assets |
-| `docs/` | Research methods, implementation boundaries and project documentation |
-
-### Current limitations and asset rights
-
-This is an interactive prototype. It has not demonstrated improvements in conversion, revenue or skincare outcomes. Prices are reference prices from project materials, not current selling prices. Extracting product information and matching fields does not establish official factual verification. There are no real membership accounts, payments, backend messaging or live user experiments.
-
-Brand names, packaging and other third-party assets belong to their respective rights holders. This repository does not grant permission to reuse those assets, and no open-source licence has been applied to the project as a whole. See the [contribution statement](docs/scope-and-contributions.md) for the boundary between individual and team work.
