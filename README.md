@@ -78,7 +78,7 @@ React, TypeScript, React Router and Vite, with the built-in Node.js test runner.
 
 This is an interactive prototype. It has not demonstrated improvements in conversion, revenue or skincare outcomes. Prices are reference prices from project materials, not current selling prices. Extracting product information and matching fields does not establish official factual verification. There are no real membership accounts, payments, backend messaging or live user experiments.
 
-Brand names, packaging and other third-party assets belong to their respective rights holders. This repository does not grant permission to reuse those assets, and no open-source licence has been applied to the project as a whole. See the [contribution statement](docs/scope-and-contributions.md) for the boundary between individual and team work.
+Brand names, packaging and other third-party assets belong to their respective rights holders. This repository does not grant permission to reuse those assets, and no open-source licence has been applied to the project as a whole.
 
 ---
 
@@ -156,4 +156,4 @@ React、TypeScript、React Router、Vite；Node.js 内置测试工具。
 
 这是可交互原型，未证明实际转化率、收入提升或护肤效果。产品价格为资料参考价，并非当前售价；产品资料提取与字段匹配不等于完成官方事实核验。没有真实会员账户、支付、后台消息发送或线上用户实验。
 
-品牌名称、包装与其他第三方素材的权利归各自权利人。仓库未授予这些素材的再使用许可，也未为整个项目添加开源许可证。个人与团队贡献边界见[贡献说明](docs/scope-and-contributions.md)。
+品牌名称、包装与其他第三方素材的权利归各自权利人。仓库未授予这些素材的再使用许可，也未为整个项目添加开源许可证。
